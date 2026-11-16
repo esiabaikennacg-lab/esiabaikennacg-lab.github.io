@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikenna Charles George Esiaba | Supply Chain, GRC & Strategic Communications</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50: '#f0fdf4', 100: '#dcfce7', 500: '#22c55e', 600: '#16a34a', 700: '#15803d', 900: '#14532d' },
+                        slate: { 850: '#1e293b', 900: '#0f172a', 950: '#020617' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-slate-950">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-brand-500"><span>ICE</span></span>
+                <span>Ikenna Charles George Esiaba</span>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-brand-400 transition">About</a>
+                <a href="#grc" class="hover:text-brand-400 transition">GRC & Moto Medics</a>
+                <a href="#experience" class="hover:text-brand-400 transition">Experience</a>
+                <a href="#education" class="hover:text-brand-400 transition">Education</a>
+                <a href="#contact" class="px-4 py-2 rounded-lg bg-brand-600 hover:bg-brand-500 text-white transition font-semibold">Get in Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-44 md:pb-32 border-b border-slate-800/60 bg-gradient-to-b from-slate-900 to-slate-950">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-8 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-950 border border-brand-800 text-brand-400 text-xs font-semibold tracking-wide uppercase">
+                    <i class="fa-solid fa-shield-halved"></i> GRC Analyst & Supply Chain Professional
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                    Bridging Strategic Communication, <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-emerald-200">Supply Chain & GRC Compliance.</span>
+                </h1>
+                <p class="text-lg text-slate-300 max-w-2xl leading-relaxed">
+                    Master of Supply Chain Management student at Miva Open University, GIZ Tech4Youth Cybersecurity alumnus, and operational leader specializing in ISO/IEC 27001 compliance frameworks, risk management, and strategic public advocacy.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#grc" class="px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold transition flex items-center gap-2 shadow-lg shadow-brand-900/30">
+                        <span>View GRC Framework</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                    <a href="#experience" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 font-semibold transition">
+                        Professional Background
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-4 shadow-xl">
+                    <div class="flex items-center gap-3 border-b border-slate-800 pb-4">
+                        <div class="w-12 h-12 rounded-xl bg-brand-950 border border-brand-800 flex items-center justify-center text-brand-400 font-bold text-lg">
+                            ICE
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white">Ikenna Charles George Esiaba</h3>
+                            <p class="text-xs text-slate-400">Aba & Abuja, Nigeria</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-3 text-sm text-slate-300">
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-graduation-cap text-brand-400 w-5"></i>
+                            <span>M.SCM, Miva Open University</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-shield text-brand-400 w-5"></i>
+                            <span>GRC Analyst @ Moto Medics</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-laptop-code text-brand-400 w-5"></i>
+                            <span>GIZ Tech4Youth Cybersecurity</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-earth-africa text-brand-400 w-5"></i>
+                            <span>Public Advocacy & Tech Mentorship</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Moto Medics GRC & ISO 27001 Framework Section -->
+    <section id="grc" class="py-20 border-b border-slate-800/60 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-6 space-y-12">
+            <div class="max-w-2xl">
+                <h2 class="text-xs font-bold text-brand-400 tracking-wider uppercase">Governance, Risk & Compliance</h2>
+                <h3 class="text-3xl font-bold text-white mt-2">Moto Medics GRC & ISO/IEC 27001:2022 Architecture</h3>
+                <p class="text-slate-400 mt-2">Information security governance, risk assessment registers, and operational compliance controls implemented for automotive diagnostic tools, POS inventory, and spare parts management.</p>
+            </div>
+
+            <!-- GRC Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-4">
+                    <div class="w-10 h-10 rounded-lg bg-brand-950 border border-brand-800 flex items-center justify-center text-brand-400 font-bold">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white">Access Control & Policy</h4>
+                    <p class="text-sm text-slate-300">Implementation of Role-Based Access Control (RBAC) across POS terminals, diagnostic scanners (OBD-II/ECU), and customer payment records to ensure data integrity.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-4">
+                    <div class="w-10 h-10 rounded-lg bg-brand-950 border border-brand-800 flex items-center justify-center text-brand-400 font-bold">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white">Risk Matrix & Assessment</h4>
+                    <p class="text-sm text-slate-300">Quantitative risk evaluation (Likelihood × Impact) covering POS database integrity during outages, physical asset security in spare parts storage, and firmware integrity.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-4">
+                    <div class="w-10 h-10 rounded-lg bg-brand-950 border border-brand-800 flex items-center justify-center text-brand-400 font-bold">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white">Notion GRC Hub & Notion 2.0</h4>
+                    <p class="text-sm text-slate-300">Custom Notion databases linking asset inventories, risk registers, and automated formula flags for real-time compliance task tracking.</p>
+                </div>
+            </div>
+
+            <!-- Risk Register Table -->
+            <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden space-y-4">
+                <h4 class="text-lg font-bold text-white flex items-center gap-2">
+                    <i class="fa-solid fa-table-cells text-brand-400"></i> Sample Risk Register & Control Matrix
+                </h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm text-slate-300">
+                        <thead class="bg-slate-950 text-slate-400 uppercase text-xs border-b border-slate-800">
+                            <tr>
+                                <th class="p-3">Risk ID</th>
+                                <th class="p-3">Category</th>
+                                <th class="p-3">Risk Scenario / Threat</th>
+                                <th class="p-3">Score</th>
+                                <th class="p-3">Level</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-800">
+                            <tr>
+                                <td class="p-3 font-mono text-brand-400">R-01</td>
+                                <td class="p-3">Cyber / Ops</td>
+                                <td class="p-3">POS & Inventory database corruption during power/network outages</td>
+                                <td class="p-3 font-mono">16</td>
+                                <td class="p-3"><span class="px-2 py-1 rounded bg-red-950 text-red-400 text-xs font-semibold border border-red-800">🔴 CRITICAL</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-mono text-brand-400">R-02</td>
+                                <td class="p-3">Tech Asset</td>
+                                <td class="p-3">Unofficial software patches installed on OBD diagnostic scanners</td>
+                                <td class="p-3 font-mono">12</td>
+                                <td class="p-3"><span class="px-2 py-1 rounded bg-amber-950 text-amber-400 text-xs font-semibold border border-amber-800">🟠 HIGH</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-mono text-brand-400">R-03</td>
+                                <td class="p-3">Physical</td>
+                                <td class="p-3">Unauthorized access/theft in high-value spare parts store room</td>
+                                <td class="p-3 font-mono">16</td>
+                                <td class="p-3"><span class="px-2 py-1 rounded bg-red-950 text-red-400 text-xs font-semibold border border-red-800">🔴 CRITICAL</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="py-20 border-b border-slate-800/60 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-6 space-y-12">
+            <div>
+                <h2 class="text-xs font-bold text-brand-400 tracking-wider uppercase">Career History</h2>
+                <h3 class="text-3xl font-bold text-white mt-2">Professional Experience</h3>
+            </div>
+
+            <div class="space-y-8 border-l-2 border-slate-800 pl-6 ml-2">
+                <!-- Moto Medics (Current) -->
+                <div class="relative space-y-2">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-brand-500 border-4 border-slate-950"></div>
+                    <span class="text-xs font-mono text-brand-400 font-semibold">April 2023 – Present</span>
+                    <h4 class="text-xl font-bold text-white">Senior Sales Representative, Supply Chain Officer & GRC Analyst</h4>
+                    <p class="text-sm text-slate-400 font-medium">Moto Medics Auto Parts & Services | Aba, Nigeria</p>
+                    <p class="text-sm text-slate-300 leading-relaxed pt-2">
+                        Manage client accounts, retail sales operations, and digital inventory tracking. Expanded responsibilities in September 2026 to include GRC Analysis, overseeing ISO/IEC 27001:2022 information security policies, physical security protocols, and supply chain risk registers.
+                    </p>
+                </div>
+
+                <!-- Special Adviser / SSA Abia State -->
+                <div class="relative space-y-2">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></div>
+                    <span class="text-xs font-mono text-slate-400 font-semibold">January 2021 – March 2023</span>
+                    <h4 class="text-xl font-bold text-white">Special Adviser & Senior Special Assistant on Public Relations</h4>
+                    <p class="text-sm text-slate-400 font-medium">Abia State Government (Enyimba Automated Shoe Company - ENASCO)</p>
+                    <p class="text-sm text-slate-300 leading-relaxed pt-2">
+                        Spearheaded public relations campaigns, media strategy, and stakeholder engagement for small and medium enterprises and industrial manufacturing initiatives in Abia State.
+                    </p>
+                </div>
+
+                <!-- Media & Communications -->
+                <div class="relative space-y-2">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-950"></div>
+                    <span class="text-xs font-mono text-slate-400 font-semibold">September 2017 – May 2019</span>
+                    <h4 class="text-xl font-bold text-white">News Reporter & Media Intern</h4>
+                    <p class="text-sm text-slate-400 font-medium">92.3 Nigeria Info FM, 95.9 Cool FM & 94.1 Wazobia FM | Port Harcourt</p>
+                    <p class="text-sm text-slate-300 leading-relaxed pt-2">
+                        Researched, scripted, and broadcasted news reports, honing investigative communication, public advocacy, and narrative analysis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Leadership Section -->
+    <section id="education" class="py-20 border-b border-slate-800/60 bg-slate-900/50">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Education -->
+            <div class="space-y-6">
+                <div>
+                    <h2 class="text-xs font-bold text-brand-400 tracking-wider uppercase">Academic Background</h2>
+                    <h3 class="text-2xl font-bold text-white mt-2">Education & Certifications</h3>
+                </div>
+                <div class="space-y-4">
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800">
+                        <span class="text-xs font-mono text-brand-400">2026 – Present</span>
+                        <h4 class="font-bold text-white text-lg mt-1">Master of Supply Chain Management (M.SCM)</h4>
+                        <p class="text-sm text-slate-400">Miva Open University, Abuja, Nigeria</p>
+                    </div>
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800">
+                        <span class="text-xs font-mono text-brand-400">2026</span>
+                        <h4 class="font-bold text-white text-lg mt-1">GIZ Tech4Youth Advanced ICT & Cybersecurity Training</h4>
+                        <p class="text-sm text-slate-400">Cybersecurity & IT Infrastructure Systems</p>
+                    </div>
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800">
+                        <span class="text-xs font-mono text-brand-400">April 2015 – January 2019</span>
+                        <h4 class="font-bold text-white text-lg mt-1">Bachelor of Arts in Linguistics & Communication Studies</h4>
+                        <p class="text-sm text-slate-400">University of Port Harcourt, Rivers State (Second Class Honours, Lower Division)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Community & Mentorship -->
+            <div class="space-y-6">
+                <div>
+                    <h2 class="text-xs font-bold text-brand-400 tracking-wider uppercase">Impact & Leadership</h2>
+                    <h3 class="text-2xl font-bold text-white mt-2">Community & Tech Mentorship</h3>
+                </div>
+                <div class="space-y-4">
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800">
+                        <span class="text-xs font-mono text-brand-400">May 2021 – Present</span>
+                        <h4 class="font-bold text-white text-lg mt-1">Volunteer Resource Person & Facilitator</h4>
+                        <p class="text-sm text-slate-400">Technovation Girls Aba-Nigeria Region</p>
+                        <p class="text-xs text-slate-300 mt-2">Mentoring young women aged 8 to 18 in mobile application development, digital entrepreneurship, and public pitch presentations.</p>
+                    </div>
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800">
+                        <span class="text-xs font-mono text-brand-400">Platform Leadership</span>
+                        <h4 class="font-bold text-white text-lg mt-1">Founder & Lead</h4>
+                        <p class="text-sm text-slate-400">"The Motive With Charles George"</p>
+                        <p class="text-xs text-slate-300 mt-2">Digital media platform dedicated to public advocacy, youth empowerment, and socio-economic discourse in Nigeria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="py-16 bg-slate-950 text-center border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-6 space-y-6">
+            <h3 class="text-2xl font-bold text-white">Let's Connect & Collaborate</h3>
+            <p class="text-slate-400 max-w-lg mx-auto text-sm">
+                Open to discussions on Supply Chain Management, ISO 27001 GRC compliance, business development, and strategic communications.
+            </p>
+            <div class="flex justify-center gap-4 pt-2">
+                <a href="mailto:esiabaikennacg@gmail.com" class="px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold transition flex items-center gap-2">
+                    <i class="fa-solid fa-envelope"><span>Email Me</span></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 font-semibold transition flex items-center gap-2">
+                    <i class="fa-brands fa-linkedin"><span>LinkedIn Profile</span></i>
+                </a>
+            </div>
+            <p class="text-xs text-slate-500 pt-8">
+                &copy; 2026 Ikenna Charles George Esiaba. All rights reserved. Built for GitHub Pages.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
